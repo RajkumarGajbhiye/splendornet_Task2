@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-top:5em; 
+}
+
+.formData{
+    border:1px solid black;
+    width:20rem;
+    height:auto  
+  }
+  
+  .formData input{
+    margin-left: 10px;
+    width:20em;
+    height:2em;
+    background-color:aquamarine
+  }
+  
+  .container label{
+    margin-left: 10px
+  }
+  
+  .formData p{
+    margin-left:10px;
+  }
+  
+  .btn{
+    width:24em;
+    height:3em;
+    background-color:green;
+     font-weight:bolder;
+     color:white
+  }
+  
+  .container h1{
+    text-align:center
+  }
+  

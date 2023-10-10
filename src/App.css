@@ -1,0 +1,12 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.imageStyle{
+  background-position: center;;
+  height:94vh;
+  width: 100vw;
+  background-size: cover;
+  overflow: hidden;
+}
