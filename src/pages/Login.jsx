@@ -43,7 +43,7 @@ export default function Login() {
   };
 
   const handleBack = () => {
-    navigate("/");
+    navigate("/register");
   };
 
   useEffect(() => {

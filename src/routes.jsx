@@ -5,11 +5,11 @@ import Registration from "./pages/Registration";
 
 const routes = [
   {
-    path: "/",
+    path: "/register",
     element: <Registration/>
   },
   {
-    path: "/login",
+    path: "/",
     element: <Login />
   },
   {

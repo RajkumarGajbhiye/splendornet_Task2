@@ -33,7 +33,7 @@ setForm({
     password: "",
     confirmePassword: ""
 })
-      navigate("/login");
+      navigate("/");
     }
   };
 
@@ -88,7 +88,7 @@ setForm({
           value={form.firstName}
           name="firstName"
           onChange={handleChange}
-        />
+        /> <br />
         
        
         {errorMessage.firstName && <p style={{color:"red",fontWeight:"bold"}}>{errorMessage.firstName}</p>}
@@ -101,7 +101,7 @@ setForm({
           value={form.lastName}
           name="lastName"
           onChange={handleChange}
-        />
+        /> <br />
        
         {errorMessage.lastName && <p style={{color:"red",fontWeight:"bold"}}>{errorMessage.lastName}</p>}
         <label>Email:</label>
